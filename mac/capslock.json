@@ -833,48 +833,6 @@
             "key_code": "m",
             "modifiers": {
               "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "m",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
                 "right_command",
                 "right_control",
                 "right_shift",
@@ -891,7 +849,7 @@
         },
         {
           "from": {
-            "key_code": "period",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "right_command",
