@@ -7,6 +7,44 @@
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json",
   "rules": [
     {
+      "description": "Disable Command-Shift-Option-Control-Period (.)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "shift",
+                "option",
+                "control"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "description": "Disable Command-Shift-Option-Control-Comma (,)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "shift",
+                "option",
+                "control"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "description": "CapsLock to Hyper/Escape",
       "manipulators": [
         {
