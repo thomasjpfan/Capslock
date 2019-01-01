@@ -1,6 +1,6 @@
 # Capslock
 
-*Make CapsLock Great Again!*  
+*Make CapsLock Great Again!*
 
 ![](images/trump.jpg)
 
@@ -10,7 +10,7 @@
 
 #### Transform Capslock into *Hyper*, improve your productivity tremendously!
 
-* Powerful: Make Capslock a great new modifier key: **Hyper(✱)**. 
+* Powerful: Make Capslock a great new modifier key: **Hyper(✱)**.
 * Well-Designed:  High-Freq key in hot-area. Bring lots of useful functionalities.
 * Compatiable: Work well with other modifiers, appliactions, devices.
 * Light-Weight:  Just a small script, carry it everywhere !
@@ -27,7 +27,7 @@
   - macOS EI Capitan (10.11)
 
 
-  - Old [XML]() Version (before OS X 10.11, *no longer maintained*) 
+  - Old [XML]() Version (before OS X 10.11, *no longer maintained*)
 - [CapsLock(Windows)](win/) via AutoHotKey  *(no longer maintianed)*
   - Windows XP, Vista, 7, 8, 10
 
@@ -42,7 +42,7 @@
 
 ```bash
 # This Repo (open in safari)
-karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/thomasjpfan/Capslock/master/mac/capslock.json
 ```
 
 ```bash
@@ -177,7 +177,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 - Use F1,…F12 as standard functional keys, while hold hyper to turn them back.
 
-- If you are using RMBP with Bar, consider changing your bar back to function keys with 
+- If you are using RMBP with Bar, consider changing your bar back to function keys with
 
   `Karabiner -> Function Keys -> Use all F1, F2, etc. keys as standard function keys  `
 
