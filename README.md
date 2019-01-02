@@ -2,10 +2,6 @@
 
 *Make CapsLock Great Again!*
 
-![](images/trump.jpg)
-
-
-
 ## Why CapsLock
 
 #### Transform Capslock into *Hyper*, improve your productivity tremendously!
