@@ -890,7 +890,10 @@
           },
           "to": [
             {
-              "key_code": "delete_forward"
+              "key_code": "delete_forward",
+              "modifiers": [
+                "left_option"
+              ]
             }
           ],
           "type": "basic"
