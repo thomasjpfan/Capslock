@@ -7,44 +7,6 @@
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json",
   "rules": [
     {
-      "description": "Disable Command-Shift-Option-Control-Period (.)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "period",
-            "modifiers": {
-              "mandatory": [
-                "command",
-                "shift",
-                "option",
-                "control"
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "description": "Disable Command-Shift-Option-Control-Comma (,)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
-                "command",
-                "shift",
-                "option",
-                "control"
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "description": "CapsLock to Hyper/Escape",
       "manipulators": [
         {
@@ -890,10 +852,7 @@
           },
           "to": [
             {
-              "key_code": "delete_forward",
-              "modifiers": [
-                "left_option"
-              ]
+              "key_code": "delete_or_backspace"
             }
           ],
           "type": "basic"
@@ -901,6 +860,25 @@
         {
           "from": {
             "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "period",
             "modifiers": {
               "mandatory": [
                 "right_command",
