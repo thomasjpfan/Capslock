@@ -843,6 +843,25 @@
             }
           ],
           "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "common",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
         }
       ]
     },
