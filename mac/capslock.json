@@ -846,7 +846,7 @@
         },
         {
           "from": {
-            "key_code": "common",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -881,7 +881,7 @@
             }
           ],
           "type": "basic"
-        },
+        }
       ]
     },
     {
