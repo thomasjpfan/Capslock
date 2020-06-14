@@ -783,7 +783,7 @@
         },
         {
           "from": {
-            "key_code": "i",
+            "key_code": "o",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -802,7 +802,7 @@
         },
         {
           "from": {
-            "key_code": "o",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "right_command",
