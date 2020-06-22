@@ -34,7 +34,12 @@
             }
           ],
           "type": "basic"
-        },
+        }
+      ]
+    },
+    {
+      "description": "Hyper Actions",
+      "manipulators": [
         {
           "from": {
             "key_code": "h",
