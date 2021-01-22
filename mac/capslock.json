@@ -701,14 +701,7 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "delete_forward",
-              "modifiers": [
-                "left_option"
-              ]
-            }
-          ],
+          "to": [],
           "type": "basic"
         },
         {
@@ -723,11 +716,22 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "delete_forward"
+          "to": [],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
             }
-          ],
+          },
+          "to": [],
           "type": "basic"
         },
         {
